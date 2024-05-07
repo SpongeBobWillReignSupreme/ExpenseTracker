@@ -18,7 +18,7 @@ Expense Tracker is a simple Python script that allows users to track their expen
 
 1. **Clone the Repository**: 
    ```
-   git clone https://github.com/SpongeBobWillReignSupreme/expense-tracker.git
+   git clone https://github.com/SpongeBobWillReignSupreme/ExpenseTracker.git
    ```
 
 2. **Navigate to the Directory**:
