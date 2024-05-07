@@ -1,13 +1,13 @@
 import csv
 
 def addExpense(date, category, price):
-    with open('expenses.csv', 'a', newline = '') as csvfile:
+    with open('src/expenses.csv', 'a', newline = '') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow([date, category, price])
 
 def getExpensesByCategory(category):
     total = 0
-    with open('expenses.csv', newline = '') as csvfile:
+    with open('src/expenses.csv', newline = '') as csvfile:
         reader = csv.reader(csvfile)
         expenses = [row for row in reader if row[1].lower() == category.lower()]
         for expense in expenses:

@@ -37,9 +37,12 @@ MANIFEST
 *.out
 *.app
 
-# vscode
+# expenses.csv
+src/expenses.csv
 
+# vscode
 *.vscode/
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
