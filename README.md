@@ -1,5 +1,7 @@
 # ExpenseTracker
 
+> This is my first time coding anything in Python, so I hope it's okay.
+
 Making an expense tracker in Python
 
 Tasks:
