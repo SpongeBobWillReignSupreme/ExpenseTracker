@@ -23,7 +23,7 @@ Expense Tracker is a simple Python script that allows users to track their expen
 
 2. **Navigate to the Directory**:
    ```
-   cd ExpenseTracker
+   cd ExpenseTracker/src
    ```
 
 3. **Run the Script**:
