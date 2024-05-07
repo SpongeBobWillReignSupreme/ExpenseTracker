@@ -1,6 +1,6 @@
 # ExpenseTracker
-Making an expense tracker in Python
 
+Making an expense tracker in Python
 
 Tasks:
 
