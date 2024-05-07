@@ -18,23 +18,23 @@ def main():
     print("Expense  Tracker")
     
     while True:
-        print("\n1. Add Expense\n2. View Expenses by Category\n3. Exit")
+        print("\n1. Add Expense\n2. View Expenses by Category\n3. Exit\n")
         choice = input("Enter your choice: ")
         if choice == '1':
-            date = input("Enter the date: YYYY-MM-DD: ")
+            date = input("\nEnter the date: YYYY-MM-DD: ")
             category = input("Enter the category: ")
             price = input("Enter the price: ")
             addExpense(date, category, price)
             print("Expense added successfully.")
         elif choice == '2':
-            category = input("Enter the category: ")
+            category = input("\nEnter the category: ")
             expenses, total = getExpensesByCategory(category)
             print(f"\nExpenses under {category}:")
             for expense in expenses:
                 print(f"Date: {expenses[0]}, Price: {expense[2]}")
             print(f"Total expenses under {category}: {total}")
         elif choice == '3':
-            print("Exiting...")
+            print("\nExiting...")
             break
         else:
             print("Invalid choice. Please try again.")
